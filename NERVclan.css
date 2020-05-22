@@ -1,0 +1,236 @@
+body{
+  max-width: 495px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#site-box{
+  background-image: url(image/pic004.jpg);
+  background-size: 1000px;
+}
+
+#s1-box{
+  background-image: url(image/pic005.jpg);
+}
+
+#c1-box{
+  background-image: url(image/pic006.jpg);
+}
+
+#a1{
+  color: deepskyblue;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    background-color: ;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+  
+  @keyframes fadein {
+  from{
+    opacity: 0;
+    transform: translateZ(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+  }
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  animation-name: fadein;
+  animation-duration: 3s;
+  background-color: skyblue;
+}
+
+@keyframes fadein {
+from{
+  opacity: 0;
+  transform: translateZ(150px);
+}
+to {
+  opacity: 1;
+  transform: translateZ(0);
+}
+}
+
+h3{
+  text-align: left;
+  margin: 0;
+  font-size: 35px;
+  animation-name: fadein;
+  animation-duration: 3s;
+  color: yellow;
+
+}
+
+@keyframes fadein {
+from{
+  opacity: 0;
+  transform: translateZ(150px);
+}
+to {
+  opacity: 1;
+  transform: translateZ(0);
+}
+}
+
+h4{
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+  color:orangered;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+@keyframes fadein {
+from{
+  opacity: 0;
+  transform: translateZ(150px);
+}
+to {
+  opacity: 1;
+  transform: translateZ(0);
+}
+}
+
+p{
+  text-align: left;
+  font-size: 30px;
+  animation-name: fadein;
+  animation-duration: 3s;
+  color: white;
+  margin: 0;
+}
+
+@keyframes fadein {
+from{
+  opacity: 0;
+  transform: translateZ(150px);
+}
+to {
+  opacity: 1;
+  transform: translateZ(0);
+}
+}
+
+#p1{
+  color: black;
+}
+
+
+
+
+.no1{
+    max-width: 495px;
+    background-color: ;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+  
+  @keyframes fadein {
+  from{
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+
+.no2{
+  max-width: 70px;
+  border-radius: 50%;
+}
+
+.balloon2-left {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  box-sizing: border-box;
+}
+
+.balloon2-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+}
+
+.balloon2-left:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #555;
+  z-index: 1;
+}
+
+.balloon2-left p {
+  margin: 0;
+  padding: 0;
+}
+
+.balloon2-right {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 15px 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  box-sizing: border-box;
+}
+
+.balloon2-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-left: 12px solid #FFF;
+  z-index: 2;
+}
+
+.balloon2-right:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-left: 14px solid #555;
+  z-index: 1;
+}
+
+.balloon2-right p {
+  margin: 0;
+  padding: 0;
+}
